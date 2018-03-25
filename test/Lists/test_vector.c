@@ -53,6 +53,7 @@ static char * test_remove(){
 
 static char * all_tests() {
     mu_run_test(test_append);
+    mu_run_test(test_remove);
     return 0;
 }
 
