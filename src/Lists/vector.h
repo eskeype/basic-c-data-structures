@@ -10,7 +10,7 @@ typedef struct{
 }vector;
 
 /*
-Returns a pointer to an initialized empty vector object
+Returns a pointer to an initialized empty vector
 */
 vector* vector_new();
 
@@ -18,6 +18,11 @@ vector* vector_new();
 Appends a new element to the end of 'vec'
 */
 void vector_append(vector* vec, void* value);
+
+/*
+Returns the number of elements contained in 'vec'
+*/
+int vector_length(vector* vec);
 
 /*
 Sets the 'index'th element of 'vec' to 'value'. Invalid if 'index' is not in [0 ... vector_length(vec) - 1]

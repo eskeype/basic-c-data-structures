@@ -1,4 +1,4 @@
-#include <stdio.h>
+//#include <stdio.h>
 #include <stdlib.h>
 #include "vector.h"
 
@@ -29,6 +29,10 @@ void vector_append(vector* vec, void* value){
 
 	vec -> data[vec -> count] = value;
 	vec -> count++;
+}
+
+int vector_length(vector* vec){
+	return vec -> count;
 }
 
 void vector_set(vector* vec, int index, void* value){
