@@ -4,13 +4,11 @@ Implementations of basic data structures in C
 # Currently contains
 
 - vector (dynamic array) with tests
+- linked_list - tests coming soon
 
-
-# ROADMAP:
+# Roadmap:
 
 - Makefile
-
-- LinkedList
 
 - Stack
 
